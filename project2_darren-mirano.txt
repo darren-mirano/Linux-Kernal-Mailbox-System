@@ -1,0 +1,45 @@
+CMSC 421 Project 2 Grade
+Total Possible Points: 100
+
+Student:  darren-mirano
+
+------------------------------------------------------------------
+General (30 points total)
+    - Makefiles set up properly (root and proj2) (5 points)   : 5
+    - Kernel cleanly compiles (5 points)                      : 5
+    - Directory structure as required (5 points)              : 5
+    - README files (5 points)                                 : 5
+    - Mailbox Data Structure Functionality (10 points)        : 10
+------------------------------------------------------------------
+Testing (20 points)                                           : 17
+------------------------------------------------------------------
+Mailbox Management (35 points total)
+    - Create (5 points)                                       : 5
+    - Remove (5 points)                                       : 5
+    - Reset (2 points)                                        : 2
+    - Count Mailboxes (1 point)                               : 1
+    - List Mailboxes (3 points)                               : 3
+    - Send (5 points)                                         : 4
+    - Recv (5 points)                                         : 5
+    - Peek (5 points)                                         : 5
+    - Count Messages (1 point)                                : 1
+    - List Messages (3 points)                                : 1
+------------------------------------------------------------------
+Locking (15 points total)
+    - Race conditions prevented (10 points)                   : 10
+    - Efficiency of locking solution (5 points)               : 5
+------------------------------------------------------------------
+Penalties, if applicable (see below)                          : 
+------------------------------------------------------------------
+Final Project 2 Grade                                         :94
+
+Comments from the TA:
+------------------------------------------------------------------
+Send to mbox!
+---------------------------------------------
+Expected error Bad address. Got No such file or directory instead
+
+------------------------
+Segmentation fault
+
+Couldn't test List Messages, 

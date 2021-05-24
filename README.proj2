@@ -1,0 +1,23 @@
+#Userspace Prototype
+Creating the userspace prototype was extremely helpful for this project and I am so 
+glad I decided to start there since it made switching to kernel-land very smooth. 
+It also allowed me to check for memory leaks prior to switching over, since memory 
+leaks are harder to check for in kernel. Making a linked list in C was really challenging
+at first, but the example github repository given to us helped strengthen my understanding
+and made the switch from C++ linked lists to C linked list more managable.
+
+#Kernel-land
+At first coding in the kernal was very daunting to me, but as I started implimenting the
+functions I got the hang of it. Retracing the steps from project 0 helped me a ton with the
+first steps of the switch over. The next step was to change all the userspace functions to 
+kernel-land functions. such as printf's to printk's, malloc's to kmalloc's etc... 
+I made the wise decision to impliment one function at a time and this helped me alot in 
+term of debugging since I would know which functions would cause errors. Overall coding
+in the kernel scared me at first, but it was very interesting how we implimented our own
+system calls. It's a cool procedure to know how to do. 
+
+#Locking
+Locking was not too bad overall. I struggled with how to initialize locks at first, but 
+once I knew what I was doing it wasn't that bad at all. I made sure to go function by 
+function and study each and every one to make sure I was locking and unlocking in the 
+correct places. 
